@@ -1,17 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Hero from './components/Hero';
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="hero">
         <h3>
           Hello homepage App
+          <Hero />
         </h3>
-      </header>
+      </div>
     </div>
   );
+}
 }
 
 export default App;

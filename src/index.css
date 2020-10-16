@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Montserrat !important;
+  -webkit-font-family: Montserrat !important;
+}
+
+.hero {
+  color: #151515;
+  background-color: #fff;
+  height: 100%;
+  padding-bottom: 80px;
+}
