@@ -18,3 +18,69 @@ body {
   height: 100%;
   padding-bottom: 80px;
 }
+
+.hero-img {
+  margin-top: 200px;
+  width: 800px;
+  height: 789px;
+  margin-right: 368px;
+}
+.hero-img {
+  margin: -10px auto auto 40px;
+}
+
+.hero-img {
+  display: none;
+  margin: 20px auto;
+  width: 80%;
+  display: block;
+  overflow-x: hidden;
+}
+.hero-img {
+  margin-top: 10vh;
+}
+.hero-img {
+  margin-top: 10vh;
+}
+.hero-tag>strong {
+  margin-left: 3px;
+}
+.about-tag {
+  font-size: 16px;
+  margin: 45px auto 45px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.container {
+  width: 70%;
+}
+.container {
+  width: 100%;
+}
+
+@media screen and (min-width:1680px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .container {
+    width: 100%
+  }
+  .about-tag {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .about-tag {
+    margin: 45px auto !important;
+    line-height: 42px !important;
+    font-size: 21px;
+  }
+
+}
+.about-tag {
+  font-size: 16px;
+  margin: 45px auto 45px;
+  line-height: 35px;
+}
