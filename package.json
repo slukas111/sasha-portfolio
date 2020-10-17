@@ -12,6 +12,7 @@
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.2.2",
     "react-scripts": "^3.4.3",
+    "react-scroll-to-component": "^1.0.2",
     "react-zoomable-image": "^1.0.5"
   },
   "scripts": {

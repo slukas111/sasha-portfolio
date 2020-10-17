@@ -21,8 +21,6 @@ body {
 
 .hero-img {
   margin-top: 200px;
-  /* width: 560px;
-  height: 789px; */
   margin-right: 368px;
 }
 .hero-img {
@@ -87,23 +85,44 @@ body {
 /* view work and resume buttons */
 
 .buttons {
-  font-size: 16px;
-  margin: 50px auto 65px;
-}
-.buttons {
-  margin-top: 86px !important;
   font-size: 21px !important;
-  border-radius: 18px;
-  padding: 2px 30px 20px 40px !important;
-  margin: 65px auto !important;
+  margin: 50px auto 65px;
+  padding: 2px 30px 20px 38px !important;
+  border-radius: 18px; 
 }
 
 .buttons>a {
-  background-color: grey;
+  background-color: rgb(103, 142, 228);
   color: #fff;
   text-transform: uppercase;
   padding: 10px 15px;
   border-radius: 5px;
   margin-right: 20px;
+  text-decoration: none;
 
+}
+
+/* Navigation */
+
+.navbar-default {
+  padding: 10px 0;
+}
+
+.navbar-toggle {
+  margin-top: 28px;
+}
+
+.navbar-brand>img {
+  width: 180px;
+  margin-left: auto !important
+}
+
+
+/* skills */
+.skills-p ul{
+  display: inline;
+}
+ul li{
+  display: inline;
+  padding: 10px;
 }

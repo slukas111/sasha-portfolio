@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import profimage from "../assets/hero-img.png";
-// import { HashLink } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 import resume from "../assets/resume1.pdf";
 
 
@@ -15,22 +15,29 @@ export class Hero extends Component {
                 </div>
 
                 <div className="col-md-6 col-md-pull-6">
-            <h1 className="hero-tag">
-              Hi, I am <br /> 
-              <strong>Sasha Lukas.</strong>
-            </h1>
+                    <h1 className="hero-tag">
+                    Hi, I am <br /> 
+                    <strong>Sasha Lukas.</strong>
+                    </h1>
+
             <p className="about-tag">
             Software Engineer with an interest in backend. Recent graduate from Kenzie Academy Fullstack program. 
-            I am still pursuing a computer science degree through Olympic College, Bremerton WA. Some knack-experience with designs, photography, fine arts and film.
+            I am still pursuing a computer science degree through Olympic College, Bremerton WA. Some knack-experience 
+            with designs, photography, fine arts and film.
             Former nomadic bartender turned coder. 
             </p>
 
 
             <p className="buttons">
-            {/* <HashLink to="#">View Work</HashLink> */}
-                <button>View Work</button>{' '}
-
-            {/* </HashLink> */}
+            <HashLink
+                to="#work"
+                scroll={el =>
+                  el.scrollIntoView({ behavior: "smooth", block: "start" })
+                }
+                title="view work"
+              >
+                view work
+              </HashLink>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -41,6 +48,7 @@ export class Hero extends Component {
               </a>
 
             </p>
+
                 </div>
               </div>
               </div>
