@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: Montserrat !important;
+  -webkit-font-family: Montserrat !important;
+  font-size: 24px;
+}
+
+.hero {
+  color: #151515;
+  background-color: #fff;
+  height: 100%;
+  padding-bottom: 80px;
+}
+
+.hero-img {
+  margin-top: 200px;
+  margin-right: 368px;
+}
+.hero-img {
+  margin: -10px auto auto 40px;
+}
+
+.hero-img {
+  display: none;
+  margin: 20px auto;
+  width: 80%;
+  display: block;
+  overflow-x: hidden;
+}
+.hero-img {
+  margin-top: 10vh;
+}
+.hero-img {
+  margin-top: 10vh;
+}
+.hero-tag > strong {
+  margin-left: 3px;
+}
+.about-tag {
+  font-size: 16px;
+  margin: 45px auto 45px;
+  line-height: 35px;
+  margin: 0;
+}
+
+.container {
+  width: 70%;
+}
+.container {
+  width: 100%;
+}
+
+@media screen and (min-width: 1680px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .about-tag {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .about-tag {
+    margin: 45px auto !important;
+    line-height: 42px !important;
+    font-size: 21px;
+  }
+}
+.about-tag {
+  font-size: 16px;
+  margin: 45px auto 45px;
+  line-height: 35px;
+}
+
+/* view work and resume buttons */
+
+.buttons {
+  font-size: 21px !important;
+  margin: 50px auto 65px;
+  padding: 2px 30px 20px 38px !important;
+  border-radius: 18px;
+}
+
+.buttons > a {
+  background-color: rgb(103, 142, 228);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+/* Navigation */
+
+.navbar-default {
+  padding: 10px 0;
+}
+
+.navbar-toggle {
+  margin-top: 28px;
+}
+
+.navbar-brand > img {
+  width: 180px;
+  margin-left: auto !important;
+}
+
+/* skills */
+.skills-p ul {
+  display: inline;
+}
+ul li {
+  display: inline;
+  padding: 10px;
+}
+
+/* footer */
+.bottom-h3 {
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 40px;
+}
+.bottom-h3 > a,
+.bottom-a > a {
+  color: #151515;
+  text-decoration: none;
+}
+.test-hr {
+  border: 0.5px solid #151515;
+
+  width: 80%;
+
+  margin: 5vh auto;
+}
+
+/* work component */
+.work {
+  padding-bottom: 0px;
+}
+
+.work-tag {
+  margin: 50px auto 50px;
+  font-size: 57px;
+  padding-bottom: 34px;
+  margin: 130px auto;
+}
+
+.work-p {
+  font-size: 21px;
+  line-height: 42px;
+}
+
+.thumbnail,
+.thumbnail:hover,
+.thumbnail:focus,
+.thumbnail:active {
+  margin-top: 10px;
+  padding: 90px 15px;
+
+}
+
+.work-name {
+  font-size: 24px;
+}
+
+.work-company {
+  font-size: 14px;
+}
+.work-container {
+  width: 80%;
+}
+.thumbnail,
+.thumbnail:hover,
+.thumbnail:focus,
+.thumbnail:active {
+  margin-right: 45px;
+  margin-left: 45px;
+  padding: 200px 50px;
+  
+}
+
+.work-name {
+  font-size: 36px;
+}
+
+.work-company {
+  font-size: 18px;
+}
+.work-p {
+  font-size: 30px;
+  line-height: 54px;
+  margin: -110px auto 30px;
+}
+.ui-thumb>h1 {
+  font-size: 51px;
+}
+.thumbnail,
+.thumbnail:hover,
+.thumbnail:focus,
+.thumbnail:active {
+  border-radius: 20px;
+  padding: 75px 15px;
+  color: #151515;
+  border: 0px;
+  cursor: pointer;
+  background-color: #8a93a7 !important;
+  text-decoration: none !important;
+  opacity: .4;
+}
+
+
+@media screen and (min-width: 3500px) {
+  .App {
+    display: none;
+  }
+}

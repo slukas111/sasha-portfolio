@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { HashLink } from "react-router-hash-link";
+// import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   render() {

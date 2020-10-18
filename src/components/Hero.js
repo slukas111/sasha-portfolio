@@ -10,7 +10,7 @@ export class Hero extends Component {
 
             <div className="container">
                 <div className="row">
-                <div className="hero-card col-md-6 col-md-push-6">
+                <div className="col-md-6 col-md-push-6">
                     <img src={profimage} alt="BG-Card" className="hero-img" />
                 </div>
 
@@ -28,8 +28,9 @@ export class Hero extends Component {
             </p>
 
 
+
             <p className="buttons">
-            <HashLink
+              <HashLink
                 to="#work"
                 scroll={el =>
                   el.scrollIntoView({ behavior: "smooth", block: "start" })
@@ -46,7 +47,6 @@ export class Hero extends Component {
               >
                 view resume
               </a>
-
             </p>
 
                 </div>
@@ -58,5 +58,5 @@ export class Hero extends Component {
     }
 }
 
-export default Hero
+export default Hero;
 
