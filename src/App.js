@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Hero from './components/Hero';
 import Work from './components/Work';
 import Navbar from './components/Projects/Navbar';

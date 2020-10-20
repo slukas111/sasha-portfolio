@@ -8,8 +8,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: Montserrat !important;
-  -webkit-font-family: Montserrat !important;
 }
 
 .navbar-default {
@@ -21,11 +19,21 @@ body {
   margin-bottom: 0;
 }
 
-.back {
-  background: none;
-  border: none;
+ul li {
+  display: inline;
+  padding: 10px;
+  border-radius: 20%;
 }
-/* logo image */
+
+ul li button {
+  border-radius: 25px;
+  font-size: medium;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #f9f9f9 !important;
+  width: 8em;
+}
+
 .navbar-brand > img {
   width: 200px;
   margin-left: -15px;
@@ -92,33 +100,19 @@ img {
   margin-left: 3px;
 }
 
-ul li {
-  display: inline;
-  padding: 10px;
-  border-radius: 20%;
-}
-
-ul li button {
-  border-radius: 25px;
-  font-size: medium;
-  padding: 10px 15px;
-  margin: 5px;
-  background-color: #f9f9f9 !important;
-  width: 8em;
-}
-
 .buttons {
   margin: 65px auto !important;
 }
 
 .buttons > a:first-child {
-  background-color: #151515;
+  background-color: #d20e0e;
   color: #fff;
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 5px;
   margin-right: 25px;
-  border: 3px solid #151515;
+  border: 3px solid #d20e0e;
+  text-decoration: none;
 }
 
 .buttons > a:nth-child(even) {
@@ -128,6 +122,7 @@ ul li button {
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 8px;
+  text-decoration: none;
 }
 
 .socials > a,
@@ -153,14 +148,12 @@ ul li button {
   width: 80%;
 }
 
-/* work section */
+/* work and skills section */
 
 .work,
 .skills {
   color: #151515;
   text-align: center;
-  /* padding-bottom: 50px; */
-  /* height: 100vh; */
 }
 
 .work-p,
@@ -172,13 +165,9 @@ ul li button {
 }
 
 .work-tag,
-.work-name,
-.skills-tag {
+.skills-tag,
+.work-name {
   font-weight: bold;
-}
-
-.back1 {
-  margin-right: 85px;
 }
 
 .work-tag,
@@ -208,24 +197,15 @@ ul li button {
   padding: 75px 15px;
   color: #151515;
   border: 0px;
-  cursor: pointer;
   background-color: #f9f9f9 !important;
   text-decoration: none !important;
-}
-
-.ui-thumb > h1 {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-.ui-thumb {
-  margin-bottom: 45px;
 }
 
 .test-hr {
   border: 0.5px solid #151515;
   /* margin-top: 10vh; */
   width: 75%;
+
   margin: 5vh auto;
 }
 
@@ -283,6 +263,7 @@ ul li button {
   .buttons > a {
     font-size: 12px !important;
     padding: 8px 10px !important;
+    -webkit-appearance: none;
   }
 
   .navbar-default {
@@ -293,17 +274,15 @@ ul li button {
     width: 180px;
     margin-left: auto !important;
   }
-/* 
+
   .practo-h1 {
     font-size: 24px;
-  } */
+  }
 
   .hero-img {
-    /* display: none; */
     margin: 20px auto;
-    width: 80%;
+    width: 90%;
     display: block;
-    /* overflow-x: hidden; */
   }
 
   .mac {
@@ -320,8 +299,21 @@ ul li button {
     margin: -25px auto 25px;
   }
 
+  .item {
+    min-height: 575px;
+  }
+
   .buttons > a:first-child {
     margin-right: 10px;
+    -webkit-appearance: none;
+  }
+
+  .test-p {
+    width: 90%;
+  }
+
+  .test-h {
+    margin: 60px auto;
   }
 
   .socials > a {
@@ -341,6 +333,20 @@ ul li button {
     width: 100%;
   }
 
+  .test-p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .carousel-control {
+    margin-top: -25vh;
+  }
+
+  .test-h {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
   .test-hr {
     width: 90%;
   }
@@ -349,6 +355,10 @@ ul li button {
 @media screen and (min-width: 321px) and (max-width: 500px) {
   .work {
     height: auto;
+  }
+
+  .carousel-control {
+    margin-top: -45vh;
   }
 
   .ui-thumb {
@@ -390,16 +400,17 @@ ul li button {
     line-height: 30px;
   }
 
-  .mac {
+  /* .mac {
     display: none;
+  } */
+
+  .item {
+    min-height: 575px;
   }
 
   .buttons > a:first-child {
     margin-right: 10px;
-  }
-
-  .socials > a {
-    margin-right: 15px;
+    -webkit-appearance: none;
   }
 
   .hero {
@@ -428,7 +439,8 @@ ul li button {
   }
 
   .hero,
-  .work {
+  .work,
+  .skills {
     height: auto;
   }
 
@@ -439,10 +451,6 @@ ul li button {
   .contact-nav {
     width: 35%;
     margin: 0 auto !important;
-  }
-
-  .mac {
-    display: none;
   }
 
   .navbar-toggle {
@@ -462,6 +470,23 @@ ul li button {
   .thumbnail:focus,
   .thumbnail:active {
     padding: 75px 15px;
+  }
+
+  .item {
+    min-height: 600px;
+  }
+
+  .test-img {
+    width: 270px;
+  }
+
+  .test-p {
+    width: 90%;
+    font-size: 21px;
+  }
+
+  .test-h {
+    margin: 60px auto;
   }
 
   .bottom {
@@ -526,14 +551,14 @@ ul li button {
 
   .buttons {
     font-size: 16px;
+    -webkit-appearance: none;
   }
 
   .socials {
     font-size: 1.5em;
   }
 
-  .work-tag,
-  .skills-tag {
+  .work-tag {
     font-size: 48px;
   }
 
@@ -545,8 +570,7 @@ ul li button {
     font-size: 14px;
   }
 
-  .work-tag,
-  .skills-tag {
+  .work-tag {
     font-size: 28px;
   }
 
@@ -555,11 +579,31 @@ ul li button {
   .thumbnail:active {
     padding: 75px 15px;
   }
+
+  .item {
+    min-height: 700px;
+  }
+
+  .test-img {
+    width: 270px;
+  }
+
+  .test-p {
+    width: 90%;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .test-h {
+    font-size: 18px;
+    margin: 70px auto;
+  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1096px) {
   .about-tag,
-  .work-p {
+  .work-p,
+  .test-p {
     font-size: 12px !important;
     line-height: 30px;
   }
@@ -575,7 +619,8 @@ ul li button {
   }
 
   .work-p,
-  .about-tag {
+  .about-tag,
+  .test-p {
     font-size: 14px !important;
   }
 }
@@ -594,12 +639,17 @@ ul li button {
     font-size: 9px;
   }
 
+  .test-img {
+    margin-top: 100px;
+  }
+
   .hero-tag {
     font-size: 32px;
   }
 
   .about-tag,
-  .work-p {
+  .work-p,
+  .test-p {
     font-size: 14px;
     line-height: 30px;
   }
@@ -608,8 +658,12 @@ ul li button {
     font-size: 21px;
   }
 
+  .item {
+    min-height: 500px;
+  }
+
   .test-hr {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -640,7 +694,8 @@ ul li button {
   }
 
   .about-tag,
-  .work-p {
+  .work-p,
+  .skills-p {
     font-size: 18px;
     line-height: 40px;
   }
@@ -652,6 +707,7 @@ ul li button {
 
   .buttons {
     margin: 50px auto 65px;
+    -webkit-appearance: none;
   }
 
   .socials > a {
@@ -663,8 +719,7 @@ ul li button {
     margin-top: 10vh;
   }
 
-  .work-tag,
-  .skills-tag {
+  .work-tag {
     margin: 75px auto 50px;
   }
 
@@ -682,6 +737,14 @@ ul li button {
 
   .work-name {
     font-size: 24px;
+  }
+
+  .about-practo {
+    font-size: 18px !important;
+  }
+
+  .item {
+    min-height: 600px;
   }
 
   .test-hr {
@@ -707,7 +770,7 @@ ul li button {
 
 @media screen and (min-width: 1650px) {
   .test-hr {
-    width: 80%;
+    width: 70%;
   }
 }
 
@@ -760,6 +823,8 @@ ul li button {
 
   .buttons > a {
     padding: 15px 20px !important;
+    text-decoration: none;
+    -webkit-appearance: none;
   }
 
   .socials > a {
@@ -775,8 +840,7 @@ ul li button {
     padding-bottom: 0px;
   }
 
-  .work-tag,
-  .skills-tag {
+  .work-tag {
     margin: 50px auto 50px;
   }
 
@@ -791,6 +855,7 @@ ul li button {
   .thumbnail:active {
     margin-top: 10px;
     padding: 90px 15px;
+    cursor: pointer;
   }
 
   .work-name {
@@ -799,6 +864,17 @@ ul li button {
 
   .work-company {
     font-size: 14px;
+  }
+
+  .test-img {
+    width: 200px;
+    margin-top: 95px;
+  }
+
+  .test-p {
+    width: 90%;
+    font-size: 21px;
+    line-height: 40px;
   }
 
   .bottom {
@@ -815,7 +891,7 @@ ul li button {
   .test-hr {
     border: 0.5px solid #151515;
     /* margin-top: 10vh; */
-    width: 80%;
+    width: 70%;
 
     margin: 5vh auto;
   }
@@ -823,6 +899,11 @@ ul li button {
   .ui-thumb > h1 {
     font-size: 24px !important;
     padding: 20px 15px;
+  }
+
+  .photo-h1 {
+    margin-left: 15px;
+    margin-top: 100px;
   }
 
   .bottom-a {
@@ -863,10 +944,12 @@ ul li button {
     margin-top: 86px !important;
     font-size: 21px !important;
     border-radius: 18px;
+    -webkit-appearance: none;
   }
 
   .buttons > a {
     padding: 26px 38px 20px 39px !important;
+    -webkit-appearance: none;
   }
 
   .hero-tag {
@@ -877,18 +960,9 @@ ul li button {
 
   .about-tag,
   .hero-tag,
-  .buttons,
-  .socials {
+  .buttons {
     margin-left: 248px !important;
-  }
-
-  .socials {
-    margin-top: 118px;
-  }
-
-  .socials > a {
-    margin-right: 74px;
-    font-size: 1.2em;
+    -webkit-appearance: none;
   }
 
   .about-tag {
@@ -912,15 +986,14 @@ ul li button {
     padding: 30px 39px !important;
   }
 
-  .work-tag,
-  .skills-tag {
+  .work-tag {
     font-size: 57px;
     padding-bottom: 34px;
     margin: 130px auto;
   }
 
   .work-container {
-    width: 80%;
+    width: 90%;
   }
 
   .thumbnail,
@@ -943,11 +1016,11 @@ ul li button {
   }
 
   .test-hr {
-    width: 80%;
+    width: 90%;
   }
 
   .test-hr {
-    width: 80%;
+    width: 90%;
     margin: 15vh auto 25px;
   }
 
@@ -962,7 +1035,7 @@ ul li button {
     padding-left: 250px;
     padding-bottom: 90px;
   }
-/* footer */
+
   .bottom-h3 {
     font-size: 54px;
     margin: 50px auto;
@@ -971,6 +1044,11 @@ ul li button {
   .bottom-icons > a {
     margin-right: 40px;
     font-size: 1.2em;
+  }
+
+  .back {
+    background: none;
+    border: none;
   }
 
   .bottom-a {
@@ -982,11 +1060,12 @@ ul li button {
   .ui-thumb > h1 {
     font-size: 51px;
   }
-
-  /* .photo-co > .row {
-    width: 95%;
+  a.thumbnail {
+    cursor: pointer;
+  }
+  .photo-h1 {
     margin-left: 50px;
-  } */
+  }
 }
 
 @media screen and (min-width: 3500px) {

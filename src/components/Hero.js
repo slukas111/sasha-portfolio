@@ -31,7 +31,7 @@ export class Hero extends Component {
 
             <p className="buttons">
               <HashLink
-                to="#work"
+                to="/#work"
                 scroll={el =>
                   el.scrollIntoView({ behavior: "smooth", block: "start" })
                 }

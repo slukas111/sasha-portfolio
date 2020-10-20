@@ -29,7 +29,7 @@ export class Skills extends Component {
                                 {skill}
                             </button></li>
                         )
-                        })};
+                        })}
                     </ul>
                     <p> Currently Studying</p>
                     <ul>
