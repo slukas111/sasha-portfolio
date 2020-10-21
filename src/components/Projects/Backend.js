@@ -18,7 +18,7 @@ class Backend extends Component{
         <div>
             <Navbar/>
             <div style={{textAlign:'center'}} className="container photo-co">
-                <h1 className="photo-h1 h2">Frontend</h1>
+                <h1 className="photo-h1 h2">Backend</h1>
                 <div className="row">
                     {be_src.map((be,index) => (
                         <div key={index} className="col-md-4 col-md-12 fe">
