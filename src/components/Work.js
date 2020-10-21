@@ -27,11 +27,9 @@ class Work extends Component {
         <div className="container work-container">
           <h1 className="work-tag">My work</h1>
           <p className="work-p">
-
             An organized display of projects. Portion done in Kenzie with time 
             met standards, actual group efforts, and further self-studies. I make
             use of free University classes and local libraries.{" "}
-
           </p>
           <div className="row">
             {projectnames.map(project => (
