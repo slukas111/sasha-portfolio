@@ -17,6 +17,7 @@ class Frontend extends Component{
             <Navbar/>
             <div style={{textAlign:'center'}} className="container photo-co">
                 <h1 className="photo-h1 h2">Sketch Portfolio</h1>
+                <br />
                 <div className="row">
                     {photo_src.map((sk,index) => (
                         <div key={index} className="col-md-4 col-md-12 fe">

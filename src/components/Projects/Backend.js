@@ -19,6 +19,7 @@ class Backend extends Component{
             <Navbar/>
             <div style={{textAlign:'center'}} className="container photo-co">
                 <h1 className="photo-h1 h2">Backend</h1>
+                <br />
                 <div className="row">
                     {be_src.map((be,index) => (
                         <div key={index} className="col-md-4 col-md-12 fe">
@@ -31,14 +32,8 @@ class Backend extends Component{
                 title="code"
                 href={be.code}
               ><br />
-              <i><FaGithub /></i></a>
-              {/* <a
-                target="_blank"
-                rel="noopener noreferrer"
-                title="code"
-                href={be.url}
-              >{" "}
-              <i><BsBoxArrowUpRight /></i></a> */}
+              <i><FaGithub size="25px" color="grey"/></i></a>
+
                         </div>
                     ))}
                 </div>

@@ -1,5 +1,6 @@
 import todo from './assets/todo.png';
 import sokoban from './assets/sokoban.png';
+import portfolio from './assets/portfolio2020.png';
 
 import sugar from './assets/sugarsnap.png';
 
@@ -27,6 +28,11 @@ export const fe_src= [{
     url: 'https://slukas111.gitlab.io/sokoban/',
     content: 'Javascript, css',
     code: 'https://gitlab.com/slukas111/sokoban'
+},{
+    src: portfolio,
+    caption: 'Portfolio 2020',
+    url: 'https://sashalukas.netlify.app/',
+    content: 'React, Javascript, Bootstrap, css, Jquery'
 }
 
 ]

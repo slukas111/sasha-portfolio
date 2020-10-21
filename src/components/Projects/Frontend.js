@@ -21,6 +21,7 @@ class Frontend extends Component{
             <Navbar/>
             <div style={{textAlign:'center'}} className="container photo-co">
                 <h1 className="photo-h1 h2">Frontend</h1>
+                <br />
                 <div className="row">
                     {fe_src.map((fe,index) => (
                         <div key={index} className="col-md-4 col-md-12 fe">
@@ -33,14 +34,14 @@ class Frontend extends Component{
                 title="code"
                 href={fe.code}
               ><br />
-              <i><FaGitlab /></i></a>
+              <i><FaGitlab size="25px" color="grey"/></i></a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 title="code"
                 href={fe.url}
               >{" "}
-              <i><BsBoxArrowUpRight /></i></a>
+              <i><BsBoxArrowUpRight size="25px" color="grey"/></i></a>
                         </div>
                     ))}
                 </div>
