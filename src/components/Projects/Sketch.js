@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar';
-import {sketch} from '../../data';
+import {photo_src} from '../../data';
 import Footer from '../Footer';
 
 class Frontend extends Component{
@@ -18,7 +18,7 @@ class Frontend extends Component{
             <div style={{textAlign:'center'}} className="container photo-co">
                 <h1 className="photo-h1 h2">Sketch Portfolio</h1>
                 <div className="row">
-                    {sketch.map((sk,index) => (
+                    {photo_src.map((sk,index) => (
                         <div key={index} className="col-md-4 col-md-12 fe">
                             <medium>{sk.caption}</medium>
                            <a href={sk.url}><img className={`fe-${index}`} src={sk.src} alt={index}/></a> <br/> <br/>
