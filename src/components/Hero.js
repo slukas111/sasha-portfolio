@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import profimage from "../assets/hero-img.png";
 import { HashLink } from "react-router-hash-link";
-import resume from "../assets/resume1.pdf";
+import resume from "../assets/SLresume.pdf";
 
 
 export class Hero extends Component {
